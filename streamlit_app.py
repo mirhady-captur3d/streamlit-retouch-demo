@@ -41,11 +41,11 @@ image_comparison(
 
 
 
-
-st.header("🔭 Magic retouch")
+st.header("🔭 Magic retouch - 21/01/2025")
 
 st.write("")
 "A combination of automated color correction tasks (mainly shadows lifting, dehighlighting, saturation and brightness adjustments)"
+"Added automated white balance and targeted dehighlighting around windows"
 st.write("")
 
 st.markdown("### test image 1")
@@ -127,6 +127,92 @@ image_comparison(
     label1="input",
     label2="magic retouch",
 )
+
+st.header("🔭 Magic retouch - 09/01/2025")
+st.write("")
+"A combination of automated color correction tasks (shadows lifting, dehighlighting, saturation and brightness adjustments)"
+st.write("")
+
+st.markdown("### test image 1")
+image_comparison(
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/1.jpg",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/1_after_090125_.jpg",
+    label1="input",
+    label2="magic retouch - 09/01/2025",
+)
+
+st.markdown("### test image 2")
+image_comparison(
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/2.jpg",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/2_after_090125.jpg",
+    label1="input",
+    label2="magic retouch - 09/01/2025",
+)
+
+st.markdown("### test image 3")
+image_comparison(
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/3.jpg",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/3_after_090125.jpg",
+    label1="input",
+    label2="magic retouch - 09/01/2025",
+)
+
+st.markdown("### test image 4")
+image_comparison(
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/4.jpg",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/4_after_090125.jpg",
+    label1="input",
+    label2="magic retouch - 09/01/2025",
+)
+
+st.markdown("### test image 5")
+image_comparison(
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/5.jpg",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/5_after_090125.jpg",
+    label1="input",
+    label2="magic retouch - 09/01/2025",
+)
+
+st.markdown("### test image 6")
+image_comparison(
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/6.jpg",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/6_after_090125.jpg",
+    label1="input",
+    label2="magic retouch - 09/01/2025",
+)
+
+st.markdown("### test image 7")
+image_comparison(
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/7.jpg",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/7_after_090125.jpg",
+    label1="input",
+    label2="magic retouch - 09/01/2025",
+)
+
+st.markdown("### test image 8")
+image_comparison(
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/8.jpg",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/8_after_090125.jpg",
+    label1="input",
+    label2="magic retouch - 09/01/2025",
+)
+
+st.markdown("### test image 9")
+image_comparison(
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/9.jpg",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/9_after_090125.jpg",
+    label1="input",
+    label2="magic retouch - 09/01/2025",
+)
+
+st.markdown("### test image 10")
+image_comparison(
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/10.jpg",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/10_after_090125.jpg",
+    label1="input",
+    label2="magic retouch - 09/01/2025",
+)
+
 
 
 st.header("🔭 magic retouching breakdown")
