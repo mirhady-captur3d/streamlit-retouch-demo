@@ -34,7 +34,7 @@ image_comparison(
 st.markdown("### unsure case (is this too blue-ish?)")
 image_comparison(
     img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/9_after_old.jpg",
-    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/6-wb.png",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/9-wb.png",
     label1="MR, minus white balance and targeted dehighlight",
     label2="added white balance",
 )
