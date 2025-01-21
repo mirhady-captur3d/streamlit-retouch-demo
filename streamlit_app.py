@@ -25,7 +25,7 @@ image_comparison(
 st.header("🔭 Automated white balance - default prompt: wall")
 st.markdown("### good case")
 image_comparison(
-    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/2_after_old.png",
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/2_after_old.jpg",
     img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/2-wb.png",
     label1="MR, minus white balance and targeted dehighlight",
     label2="added white balance",
