@@ -16,7 +16,7 @@ image_comparison(
 
 st.markdown("### worst case (different lighting variations in single photo)")
 image_comparison(
-    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/6-wb.jpg",
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/6-wb.png",
     img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/6-dehighlight_out.jpg",
     label1="MR, minus dehighlight",
     label2="with targeted dehighlight",
