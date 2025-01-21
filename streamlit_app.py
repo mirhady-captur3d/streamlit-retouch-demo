@@ -8,7 +8,7 @@ st.set_page_config("Photo retouching check in", "🔭", layout="centered")
 st.header("🔭 Targeted dehighlighting around window")
 st.markdown("### good case")
 image_comparison(
-    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/2-wb.jpg",
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/2-wb.png",
     img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/2-dehighlight_out.jpg",
     label1="MR, minus dehighlight",
     label2="with targeted dehighlight",
@@ -25,16 +25,16 @@ image_comparison(
 st.header("🔭 Automated white balance - default prompt: wall")
 st.markdown("### good case")
 image_comparison(
-    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/2-wb.jpg",
-    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/2-dehighlight_out.jpg",
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/2_after_old.png",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/2-wb.png",
     label1="MR, minus white balance and targeted dehighlight",
     label2="added white balance",
 )
 
 st.markdown("### unsure case (is this too blue-ish?)")
 image_comparison(
-    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/6-wb.jpg",
-    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/6-dehighlight_out.jpg",
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/9_after_old.jpg",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/6-wb.png",
     label1="MR, minus white balance and targeted dehighlight",
     label2="added white balance",
 )
