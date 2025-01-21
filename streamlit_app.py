@@ -136,7 +136,7 @@ st.write("")
 st.markdown("### test image 1")
 image_comparison(
     img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/1.jpg",
-    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/1_after_090125_.jpg",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/1_after_090125.jpg",
     label1="input",
     label2="magic retouch - 09/01/2025",
 )
