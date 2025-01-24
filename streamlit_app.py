@@ -128,6 +128,46 @@ image_comparison(
     label2="magic retouch",
 )
 
+st.markdown("### test image 11")
+image_comparison(
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/12.jpg",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/12_after.jpg",
+    label1="input",
+    label2="magic retouch - 09/01/2025",
+)
+
+st.markdown("### test image 12")
+image_comparison(
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/13.jpg",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/13_after.jpg",
+    label1="input",
+    label2="magic retouch - 09/01/2025",
+)
+
+st.markdown("### test image 13")
+image_comparison(
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/14.jpg",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/14_after.jpg",
+    label1="input",
+    label2="magic retouch - 09/01/2025",
+)
+
+st.markdown("### test image 14")
+image_comparison(
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/15.jpg",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/15_after.jpg",
+    label1="input",
+    label2="magic retouch - 09/01/2025",
+)
+
+st.markdown("### test image 15")
+image_comparison(
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/16.jpg",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/16_after.jpg",
+    label1="input",
+    label2="magic retouch - 09/01/2025",
+)
+
 st.header("🔭 Magic retouch - 09/01/2025")
 st.write("")
 "A combination of automated color correction tasks (shadows lifting, dehighlighting, saturation and brightness adjustments)"
