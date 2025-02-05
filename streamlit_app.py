@@ -105,6 +105,15 @@ image_comparison(
     label2="magic retouch",
 )
 
+st.markdown("### test image 6")
+image_comparison(
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/6.jpg",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/6-dehighlight-upscale.jpg",
+    label1="input",
+    label2="magic retouch with upscale",
+)
+
+
 st.markdown("### test image 7")
 image_comparison(
     img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/7.jpg",
