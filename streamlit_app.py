@@ -14,6 +14,15 @@ image_comparison(
     label2="with targeted dehighlight",
 )
 
+st.header("🔭 Targeted dehighlighting around window")
+st.markdown("### good case - after upscaling")
+image_comparison(
+    img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/2-wb.png",
+    img2="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/2-dehighlight-upscale.jpg",
+    label1="MR, minus dehighlight",
+    label2="with targeted dehighlight",
+)
+
 st.markdown("### worst case (different lighting variations in single photo)")
 image_comparison(
     img1="https://automated-photo-retouching-test.s3.ap-southeast-2.amazonaws.com/slider-demo/6-wb.png",
